@@ -53,7 +53,7 @@ public class GameSystem : MonoBehaviour, IGameSystem
         _startCounter = new TimeoutCounter(2, 1);
     }
 
-    public GameSystem() : this(() => new TimeoutCounter(119f, 1f))
+    public GameSystem() : this(() => new TimeoutCounter(59f, 0.1f))
     {
     }
 
